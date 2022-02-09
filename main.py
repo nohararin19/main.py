@@ -8,8 +8,8 @@ r = Rick()
 m = Morty()
 s = Spaceship()
 
-# turtle.onkey(s.draw, 'Up')
-# turtle.listen()
+turtle.onkey(s.draw, 'Up')
+turtle.listen()
 
 
 turtle.done()
