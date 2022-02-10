@@ -4,7 +4,7 @@ hair_color = '#8B4513'
 
 
 class Morty:
-    turtle.title("MOBB, Мамлютов, Отеген, Бейсек, Битанов")  # фон, маркер
+    turtle.title("MOBB, Мамлютов, Отеген, Бейсек, Битанов")  # фон,
     turtle.bgpic("frame1.gif")
     m = turtle.Turtle()
     m.shape("turtle")
