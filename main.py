@@ -8,9 +8,10 @@ r = Rick()
 m = Morty()
 s = Spaceship()
 
-turtle.onkey(s.draw, 'Up')
 turtle.listen()
-
+turtle.onkeypress(s.up, 'Up')
+turtle.onkeypress(s.down, 'Down')
+turtle.onkeypress(s.left, 'Left')
+turtle.onkeypress(s.right, 'Right')
 
 turtle.done()
-#  baton
