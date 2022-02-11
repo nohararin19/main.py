@@ -8,13 +8,11 @@ r = Rick()
 m = Morty()
 s = Spaceship()
 
-turtle.onkey(s.draw, 'Up')
 turtle.listen()
-
+turtle.onkeypress(s.up, 'Up')
+turtle.onkeypress(s.down, 'Down')
+turtle.onkeypress(s.left, 'Left')
+turtle.onkeypress(s.right, 'Right')
 
 turtle.done()
-<<<<<<< HEAD
-#dkc123334123
-=======
-#dkc12345445
->>>>>>> bd72653931c4a83ff404e45fde4912120f75e07c
+

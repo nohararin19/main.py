@@ -2,6 +2,7 @@ import turtle
 
 
 class Rick:
+    turtle.screensize(2000, 1100)
     turtle.title("MOBB, Мамлютов, Отеген, Бейсек, Битанов")  # фон, маркер
     turtle.bgpic("frame1.gif")
     t = turtle.Turtle()
